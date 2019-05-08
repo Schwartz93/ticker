@@ -9,12 +9,10 @@
     <title>Document</title>
 </head>
 <body>
-<button class="button">Press to simulate liveticker</button>
-<div class="tickerMessages">
-    <div class="textOutput">
-        <p class="outputText"></p>
+<button class="button">Press to simulate ticker</button>
+    <div class="tickerMessages">
+
     </div>
-</div>
 <script src="assets/scripts/script.js"></script>
 </body>
 </html>
