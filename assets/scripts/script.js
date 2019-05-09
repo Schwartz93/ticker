@@ -1,35 +1,45 @@
 const output = {
     "messages": [
         {
+            "id": "1",
             "title": "Wechsel bei Rapid",
             "text": "Letzter wechsel Rapid. Sax geht aus dem Spiel, neu aufs Feld kommt Demaku."
         },
         {
+            "id": "2",
             "title": "Gelbe Karte gegen Rapid und Austria",
             "text": "Nach einer Austria-Flanke liegt Stebinger am Boden."
+        },
+        {
+            "id": "3",
+            "title": "Wechsel bei Austria",
+            "text": "Letzter wechsel Rapid. Sax geht aus dem Spiel, neu aufs Feld kommt Demaku."
+        },
+        {
+            "id": "4",
+            "title": "Rot nach schwerem Foul",
+            "text": "F. Klein mit Rettung abtransportiert."
         }
+
     ]
 };
 
-document.querySelector(".button").addEventListener("click", showText);
+//document.querySelector(".button").addEventListener("click", showText);
 
-function showText () {
+(function showText () {
     var i = 0;
     var today = new Date();
-    // var dd = String(today.getDate()).padStart(2, '0');
-    // var mm = String(today.getMonth() + 1).padStart(2, '0');
-    // var yyyy = today.getFullYear();
-
     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
-    // today = dd + '/' + mm + '/' + yyyy;
+    document.querySelector(".container").innerHTML += "<div class='tickerMessages'></div>";
 
     while (i < output.messages.length) {
          document.querySelector(".tickerMessages").innerHTML
-            += "<h2>" + output.messages[i]["title"] + "</h2>";
-
-         document.querySelector(".tickerMessages").innerHTML
-            += "<p>" + output.messages[i]["text"] + "</p>";
+            += "<div class='singleMessage'>"
+                 + "<h2>" + output.messages[i]["title"] + "</h2>"
+                 + "<p>" + output.messages[i]["text"] + "</p>"
+                 + "<span class='time'>" + time + "</span>"
+             + "</div>";
         i++;
-    }
-};
+        }
+}());
