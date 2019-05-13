@@ -28,23 +28,42 @@ const output = {
     ]
 };
 
+setTimeout(function() {
+    //location.reload();
+}, 5000);
+
 (function showMessageEvery5Sec() {
 
     document.querySelector(".container").innerHTML += "<div class='tickerMessages'></div>";
 
-        for (let i = 0; i < output.messages.length; i++) {
-            setTimeout(function () {
+    for (let i = 0; i < 3; i++) {
+        setTimeout(function () {
 
-                let today = new Date();
-                let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            let today = new Date();
+            let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
-                document.querySelector(".tickerMessages").innerHTML
-                    += "<div class='singleMessage'>"
-                    + "<h2>" + output.messages[i]["title"] + "</h2>"
-                    + "<p>" + output.messages[i]["text"] + "</p>"
-                    + "<span class='time'>" + time + "</span>"
-                    + "</div>";
+            document.querySelector(".tickerMessages").innerHTML
+                += "<div class='singleMessage'>"
+                + "<h2>" + output.messages[i]["title"] + "</h2>"
+                + "<p>" + output.messages[i]["text"] + "</p>"
+                + "<span class='time'>" + time + "</span>"
+                + "</div>";
 
-            }, i * 5000);
-        }
+        }, i * 1000);
+    }
 }());
+
+function showAll() {
+    for (let i = 0; i < output.messages.length; i++) {
+
+        let today = new Date();
+        let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+        document.querySelector(".tickerMessages").innerHTML
+            += "<div class='singleMessage'>"
+            + "<h2>" + output.messages[i]["title"] + "</h2>"
+            + "<p>" + output.messages[i]["text"] + "</p>"
+            + "<span class='time'>" + time + "</span>"
+            + "</div>";
+    }
+}

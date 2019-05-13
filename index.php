@@ -11,6 +11,8 @@
 </head>
 <body>
 <div class="container"></div>
+<button onclick="showAll();">show</button>
+<button onclick="sort();">sort</button>
 <script src="assets/scripts/script.js"></script>
 </body>
 </html>

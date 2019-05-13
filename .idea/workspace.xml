@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/assets/scripts/script.js" line="43" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7edfd9-fbd3-43ba-9444-be514e4eb682" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,56 +21,29 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3312034">
-      <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.55011135">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/index.php">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="162">
-                      <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/assets/scripts/script.js">
-                  <provider selected="true" editor-type-id="text-editor" />
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/assets/styles/style.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="180">
-                      <caret line="10" selection-start-line="10" selection-end-line="10" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/scripts/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="26" selection-start-line="26" selection-end-line="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#33#891#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +59,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="f3d8e663ea95ac3e732695918c007f2172d2f77c" />
       </map>
     </option>
     <option name="RESET_MODE" value="HARD" />
@@ -109,10 +84,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="420" />
-    <option name="y" value="11" />
-    <option name="width" value="1503" />
-    <option name="height" value="1047" />
+    <option name="x" value="678" />
+    <option name="y" value="-29" />
+    <option name="width" value="1073" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -128,7 +103,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -164,7 +139,7 @@
       <workItem from="1557310548066" duration="11337000" />
       <workItem from="1557379886435" duration="1195000" />
       <workItem from="1557381426295" duration="3564000" />
-      <workItem from="1557725305343" duration="8039000" />
+      <workItem from="1557725305343" duration="16391000" />
     </task>
     <task id="LOCAL-00001" summary="[Ticker] First commit">
       <created>1557318722100</created>
@@ -173,14 +148,28 @@
       <option name="project" value="LOCAL" />
       <updated>1557318722100</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[Ticker] First commit">
+      <created>1557734175143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557734175143</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[Ticker] 1-3 works">
+      <created>1557744914679</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557744914679</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24223000" />
+    <option name="totallyTimeSpent" value="32575000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="686" y="0" width="857" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -249,27 +238,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Ticker] First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Ticker] First commit" />
+    <MESSAGE value="[Ticker] 4)" />
+    <MESSAGE value="[Ticker] 1-3 works" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Ticker] 1-3 works" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="266">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="389">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#33#891#0" />
+          </folding>
         </state>
       </provider>
     </entry>
