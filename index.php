@@ -11,7 +11,6 @@
 </head>
 <body>
 <div class="container"></div>
-<!--<button class="button">Press to simulate ticker</button>-->
 <script src="assets/scripts/script.js"></script>
 </body>
 </html>
