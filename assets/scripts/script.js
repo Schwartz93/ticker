@@ -24,9 +24,7 @@ const output = {
     ]
 };
 
-//document.querySelector(".button").addEventListener("click", showText);
-
-(function showText () {
+(function showText() {
     var i = 0;
     var today = new Date();
     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
@@ -34,12 +32,12 @@ const output = {
     document.querySelector(".container").innerHTML += "<div class='tickerMessages'></div>";
 
     while (i < output.messages.length) {
-         document.querySelector(".tickerMessages").innerHTML
+        document.querySelector(".tickerMessages").innerHTML
             += "<div class='singleMessage'>"
-                 + "<h2>" + output.messages[i]["title"] + "</h2>"
-                 + "<p>" + output.messages[i]["text"] + "</p>"
-                 + "<span class='time'>" + time + "</span>"
-             + "</div>";
+            + "<h2>" + output.messages[i]["title"] + "</h2>"
+            + "<p>" + output.messages[i]["text"] + "</p>"
+            + "<span class='time'>" + time + "</span>"
+            + "</div>";
         i++;
-        }
+    }
 }());
